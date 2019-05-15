@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kchen2 <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: kchen2 <kchen2@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 13:06:00 by kchen2            #+#    #+#             */
-/*   Updated: 2019/02/20 17:30:36 by kchen2           ###   ########.fr       */
+/*   Updated: 2019/05/15 15:25:21 by kchen2           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_atoi(const char *str)
 	i = 0;
 	if (!str[i])
 		return (0);
-	while (str[i] && ((str[i] <= 13 && str[i] >= 9) || str[i] == ' '))
+	while (str[i] && ft_ispace(str[i]) == 1)
 		i++;
 	if (str[i] == '-')
 		neg = -1;

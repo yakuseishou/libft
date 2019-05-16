@@ -28,8 +28,7 @@ char	**ft_strsplit(char const *s, char c)
 	while (++i < ft_word_count(s, c))
 	{
 		k = 0;
-		s2[i] = ft_strnew(ft_word_len(&s[j], c) + 1);
-		if (!s2[i])
+		if (!(s2[i] = ft_strnew(ft_word_len(&s[j], c) + 1)))
 			return (0);
 		while (s[j] == c)
 			j++;

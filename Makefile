@@ -6,7 +6,7 @@
 #    By: kchen2 <kchen2@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/11 11:56:33 by kchen2            #+#    #+#              #
-#    Updated: 2019/05/16 15:34:45 by kchen2           ###   ########.fr        #
+#    Updated: 2019/06/26 21:33:06 by kchen2           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,6 +65,7 @@ FUNCS = ft_atoi	\
 		ft_strnequ	\
 		ft_strnew	\
 		ft_strnstr	\
+		ft_strndup	\
 		ft_strrchr	\
 		ft_strsplit	\
 		ft_strstr	\

@@ -4,10 +4,10 @@ Create my own implentation of C standard libray function
 Part 1.
 /* string */
 
-|-----------------|-------------------------------------------------------|
-| **ft_memset** - | void        *ft_memset(void *str, int c, size_t n);<br>
+-----------------|-------------------------------------------------------
+ **ft_memset** - | void        *ft_memset(void *str, int c, size_t n);<br>
                 writes n bytes of value c (converted to an unsigned char) to the string b.<br>
-                example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n" |
+                example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n" 
             
 **ft_memcpy** - void	*ft_memcpy(void *s1, const void *s2, size_t n);<br>
             <p>Copies n bytes from memory area of s2 to s1.<br>

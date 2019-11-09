@@ -1,7 +1,7 @@
 # libft
 Create my own implentation of C standard libray function
 
-Part 1.
+Part 1.<br>
 /* string */
 
 **ft_memset** -  void        *ft_memset(void *str, int c, size_t n);<br>

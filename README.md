@@ -4,22 +4,22 @@ Create my own implentation of C standard libray function
 Part 1.<br>
 /* string */
 
-**ft_memset** -  void        *ft_memset(void *str, int c, size_t n);<br>
-<pre>           Writes n bytes of value c (converted to an unsigned char) to the string b.<br>           example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n"</pre>
+**ft_memset** -  <pre>void        *ft_memset(void *str, int c, size_t n);</pre>
+<pre>           Writes n bytes of value c (converted to an unsigned char) to the string b.<br>           Example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n"</pre>
             
 **ft_memcpy** - void	*ft_memcpy(void *s1, const void *s2, size_t n);<br>
-<pre>           Copies n bytes from memory area of s2 to s1.<br>           example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
+<pre>           Copies n bytes from memory area of s2 to s1.<br>           Example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
             
 **ft_memccpy** -    void     *ft_memccpy(void *dest, const void *src, int c, size_t n);<br>
 <pre>           Copies n bytes from src to dest. If c occurs in src, copy stops and point to<br>           the byte after c in dest is returned. Otherwise, n bytes are copied and null<br>           pointer is returned.</pre>
 **ft_memchr**  -    void	*ft_memchr(const void *str, int c, size_t n);
-<pre>            Locates the first occurrence of c in string s.<br>            example: ft_memchr("Hello World", o, 11) -> "o World"</pre>
+<pre>            Locates the first occurrence of c in string s.<br>            Example: ft_memchr("Hello World", o, 11) -> "o World"</pre>
 **ft_memmove** - void	*ft_memmove(void *s1, const void *s2, size_t n);
-<pre>           Copies n bytes from s2 to s1. The two strings may overlap;<br>            the copy is always done in a non-destructive manner</pre>
+<pre>           Copies n bytes from s2 to s1. The two strings may overlap;<br>           the copy is always done in a non-destructive manner</pre>
 **ft_memcmp**  - int		ft_memcmp(const void *str1, const void *str2, size_t n);
-<pre>           Returns zero if the two strings are identical,<br>             otherwise returns the difference between the first two differing bytes.<br>             0 length are identical.</pre>
+<pre>           Returns zero if the two strings are identical,<br>           otherwise returns the difference between the first two differing bytes.<br>           0 length are identical.</pre>
 **ft_strlen**  - size_t	ft_strlen(const char *str);
-<pre>           Returns the length of a string<br>            example: ft_strlen("hello world") -> 11; </pre>
+<pre>           Returns the length of a string<br>           Example: ft_strlen("hello world") -> 11; </pre>
 **ft_strdup**  - char	*ft_strdup(const char *src);
 <pre>           Allocates sufficient memory for the string, copies it, and return it.</pre>
 **ft_strcpy**  - char	*ft_strcpy(char *s1, const char *s2);
@@ -29,20 +29,20 @@ Part 1.<br>
 **ft_strcat**  - char	*ft_strcat(char *dest, char *src);
 <pre>           Append a copy of src to the end of dest, then add a '\0'.  The string dest<br>           must have sufficient space to hold the result.</pre>
 **ft_strncat** - char	*ft_strncat(char *dest, char *src, int n);
-<pre>           Appends not more than n characters from src to dest, and then adds a '\0'.<br>                  The string dest must have sufficient space to hold the result.</pre>
+<pre>           Appends not more than n characters from src to dest, and then adds a '\0'.<br>           The string dest must have sufficient space to hold the result.</pre>
 **ft_strlcat** - size_t	ft_strlcat(char *dst, const char *src, size_t n);
 <pre></pre>
-**ft_strchr**  -
+**ft_strchr**  - char	*ft_strchr(const char *str, int c);
 <pre></pre>
-**ft_strrchr** -
+**ft_strrchr** - char	*ft_strrchr(const char *str, int c);
 <pre></pre>
-**ft_strstr**  -
+**ft_strstr**  - char	*ft_strstr(const char *str, const char *to_find);
 <pre></pre>
-**ft_strnstr** -
+**ft_strnstr** - char	*ft_strnstr(const char *b, const char *s, size_t n);
 <pre></pre>
-**ft_strcmp**  -
+**ft_strcmp**  - int		ft_strcmp(const char *s1, const char *s2);
 <pre></pre>
-**ft_strncmp** -
+**ft_strncmp** - int		ft_strncmp(const char *s1, const char *s2, size_t n);
 <pre></pre>
 
 /* strings */

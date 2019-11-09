@@ -12,25 +12,25 @@ Part 1.<br>
 <pre>           Copies n bytes from memory area of s2 to s1.<br>
            example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
             
-ft_memccpy -    void     *ft_memccpy(void *dest, const void *src, int c, size_t n);<br>
+**ft_memccpy** -    void     *ft_memccpy(void *dest, const void *src, int c, size_t n);<br>
 <pre>           Copies n bytes from src to dest. If c occurs in src, copy stops and a pint to the byte<br>
            after c in dest is returned. Otherwise, n bytes are copied and null pointer is returned.</pre>
-ft_memchr  -
-ft_memmove -
-ft_memcmp  -
-ft_strlen  -
-ft_strdup  -
-ft_strcpy  -
-ft_strncpy -
-ft_strcat  -
-ft_strncat -
-ft_strlcat -
-ft_strchr  -
-ft_strrchr -
-ft_strstr  -
-ft_strnstr -
-ft_strcmp  -
-ft_strncmp -
+**ft_memchr**  -    void	*ft_memchr(const void *str, int c, size_t n);
+**ft_memmove** -
+**ft_memcmp**  -
+**ft_strlen**  -
+**ft_strdup**  -
+**ft_strcpy**  -
+**ft_strncpy** -
+**ft_strcat**  -
+**ft_strncat** -
+**ft_strlcat** -
+**ft_strchr**  -
+**ft_strrchr** -
+**ft_strstr**  -
+**ft_strnstr** -
+**ft_strcmp**  -
+**ft_strncmp** -
 
 /* strings */
 

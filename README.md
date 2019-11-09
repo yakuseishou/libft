@@ -6,11 +6,11 @@ Part 1.
 
 **ft_memset** -  void        *ft_memset(void *str, int c, size_t n);<br>
 <pre>           writes n bytes of value c (converted to an unsigned char) to the string b.<br>
-            example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n"</pre>
+           example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n"</pre>
             
 **ft_memcpy** - void	*ft_memcpy(void *s1, const void *s2, size_t n);<br>
 <pre>           Copies n bytes from memory area of s2 to s1.<br>
-            example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
+           example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
             
 ft_memccpy - 
 ft_memchr

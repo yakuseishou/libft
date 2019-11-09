@@ -13,7 +13,8 @@ Part 1.
            example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
             
 ft_memccpy -    void     *ft_memccpy(void *dest, const void *src, int c, size_t n);<br>
-<pre>           Copies n bytes from src to dest. If c occurs in src, copy stops and a pint to the byte after c in dest is                   returned. Otherwise, n bytes are copied and null pointer is returned.</pre>
+<pre>           Copies n bytes from src to dest. If c occurs in src, copy stops and a pint to the byte after c<br>
+           in dest is returned. Otherwise, n bytes are copied and null pointer is returned.</pre>
 ft_memchr  -
 ft_memmove -
 ft_memcmp  -

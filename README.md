@@ -5,48 +5,49 @@ Part 1.
 /* string */
 
 **ft_memset** -  void        *ft_memset(void *str, int c, size_t n);<br>
-<pre>           writes n bytes of value c (converted to an unsigned char) to the string b.<br>
+<pre>           Writes n bytes of value c (converted to an unsigned char) to the string b.<br>
            example: ft_memset("Hello World!\n", '#', 4) -> "####o World!\n"</pre>
             
 **ft_memcpy** - void	*ft_memcpy(void *s1, const void *s2, size_t n);<br>
 <pre>           Copies n bytes from memory area of s2 to s1.<br>
            example: s1[30] = "word" , ft_memset(s1, "Hello World!\n", 13) -> "Hello World!\n"</pre>
             
-ft_memccpy - 
-ft_memchr
-ft_memmove
-ft_memcmp
-ft_strlen
-ft_strdup
-ft_strcpy
-ft_strncpy
-ft_strcat
-ft_strncat
-ft_strlcat
-ft_strchr
-ft_strrchr
-ft_strstr
-ft_strnstr
-ft_strcmp
-ft_strncmp
+ft_memccpy -    void     *ft_memccpy(void *dest, const void *src, int c, size_t n);<br>
+<pre>           Copies n bytes from src to dest. If c occurs in src, copy stops and a pint to the byte after c in dest is                   returned. Otherwise, n bytes are copied and null pointer is returned.</pre>
+ft_memchr  -
+ft_memmove -
+ft_memcmp  -
+ft_strlen  -
+ft_strdup  -
+ft_strcpy  -
+ft_strncpy -
+ft_strcat  -
+ft_strncat -
+ft_strlcat -
+ft_strchr  -
+ft_strrchr -
+ft_strstr  -
+ft_strnstr -
+ft_strcmp  -
+ft_strncmp -
 
 /* strings */
 
-ft_bzero
+ft_bzero   -
 
 /* stdlib */
 
-ft_atoi
+ft_atoi    -
 
 /* ctype */
 
-ft_isalpha
-ft_isdigit
-ft_isalnum
-ft_isascii
-ft_isprint
-ft_toupper
-ft_tolower
+ft_isalpha -
+ft_isdigit -
+ft_isalnum -
+ft_isascii -
+ft_isprint -
+ft_toupper -
+ft_tolower -
 
 Part 2.
 
